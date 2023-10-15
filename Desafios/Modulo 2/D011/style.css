@@ -1,0 +1,14 @@
+@charset "UTF-8";
+body {
+    background-image:url(imagens/espaco-m.jpg);
+    background-repeat:no-repeat ;
+    background-attachment: scroll, fixed;
+    margin: 100px auto;
+
+
+}
+main img {
+    width: 25%;
+    display: block;
+    margin: 100px auto;
+}
