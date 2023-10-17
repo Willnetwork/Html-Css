@@ -3,6 +3,7 @@ body{
     background-image: url(Imagens/time.png);
     background-repeat:no-repeat;
     background-position: center;
+    margin-left: 72px;
 }
 header {
     text-align: center;
