@@ -1,0 +1,58 @@
+@charset "UTF-8";
+body{
+    background-image: url(Imagens/time.png);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+header {
+    text-align: center;
+}
+div.char {
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+
+}
+
+div#naruto{
+    background-image: url(Imagens/Naruto-Uzumaki-p.png);
+    background-repeat: no-repeat;
+    background-color: rgba(255, 166, 0, 0.582);
+    margin-left: 59px;
+    
+}
+#naruto:hover {
+    background-color: orangered;
+}
+
+div#sasuke{
+    background-image: url(Imagens/Sasuke-Uchiha-ppp.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 74, 139, 0.572);
+}
+#sasuke:hover{
+    background-color: darkblue;
+}
+
+div#sakura{
+    background-image: url(Imagens/Sakura-Haruno-p.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-color: rgba(255, 192, 203, 0.581);
+}
+#sakura:hover{
+    background-color: magenta;
+}
+
+div#kakashi{
+    background-image: url(Imagens/Kakashi-Hatake-p.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(85, 107, 47, 0.585)
+}
+#kakashi:hover{
+    background-color: darkolivegreen;
+}
