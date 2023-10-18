@@ -2,8 +2,8 @@
 body{
     background-image: url(Imagens/time.png);
     background-repeat:no-repeat;
-    background-position: center;
-    margin-left: 72px;
+    background-position: center top;
+    margin-left: 70px;
 }
 header {
     text-align: center;
@@ -12,7 +12,7 @@ div.char {
     border: 2px solid black;
     display: inline-block;
     border-radius: 10px;
-    width: 300px;
+    width: 23%;
     height: 300px;
 
 }
@@ -55,4 +55,11 @@ div#kakashi{
 }
 #kakashi:hover{
     background-color: darkolivegreen;
+}
+
+
+img{
+    width: 20%;
+    display: block;
+    margin-left: auto;
 }
