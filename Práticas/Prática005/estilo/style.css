@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+body{
+    text-align: center;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: linear-gradient(to right, gold, black);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-variant: small-caps;
+    
+}
+header > h1{
+    text-align: center;
+}
+header > img{
+    width: 25%;
+    display: block;
+    margin-left: auto;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+section {
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+
+aside.image#power01{
+    background-image: url(../imagens/mighty-morphin-power-rangers-once-and-always.webp);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div.red01{
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 10px;
+    width: 23%;
+    height: 300px;
+    background-image: url(../imagens/Mighty\ Morphim-Red-Ranger-p.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgba(255, 0, 0, 0.387);
+}
+
+div.red01:hover{
+    background-color: rgba(255, 0, 0, 0.694);
+}
+
+div.black01{
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 10px;
+    width: 23%;
+    height: 300px;
+    background-image: url(../imagens/Mighty\ Morphim-Black-Ranger-p.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.387);
+}
+
+div.black01:hover{
+    background-color: rgba(0, 0, 0, 0.696);
+}
+
+div.blue01{
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 10px;
+    width: 23%;
+    height: 300px;
+    background-image: url(../imagens/Mighty\ Morphim-Blue-Ranger-p.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgba(0, 0, 255, 0.387);
+}
+
+div.blue01:hover{
+    background-color: rgba(0, 0, 255, 0.694);
+}
+
+div.yellow01{
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 10px;
+    width: 23%;
+    height: 300px;
+    background-image: url(../imagens/Mighty\ Morphim-Yellow-Ranger-p.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color:rgba(255, 255, 0, 0.387);
+}
+
+div.yellow01:hover{
+    background-color: rgba(255, 255, 0, 0.693);
+}
+
+div.pink01{
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 10px;
+    width: 23%;
+    height: 300px;
+    background-image: url(../imagens/Mighty\ Morphim-Pink-Ranger-pp.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color:rgba(230, 27, 60, 0.387);
+}
+
+div.pink01:hover{
+    background-color: rgba(193, 19, 48, 0.693);
+}
+
+div.green01{
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 10px;
+    width: 23%;
+    height: 300px;
+    background-image: url(../imagens/Mighty\ Morphim-Green-Ranger-p.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color:rgba(0, 255, 60, 0.387);
+}
+
+div.green01:hover{
+    background-color:rgba(0, 255, 60, 0.697) ;
+}
+
+div.white01{
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 10px;
+    width: 23%;
+    height: 300px;
+    background-image: url(../imagens/Mighty\ Morphim-White-Ranger-p.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color:rgba(255, 255, 255, 0.387);
+}
+
+div.white01:hover{
+    background-color: rgba(255, 255, 255, 0.694);
+}
