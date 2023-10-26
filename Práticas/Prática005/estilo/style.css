@@ -27,6 +27,7 @@ header > img{
 table{
     border: 1px solid black;
     border-collapse: collapse;
+    width: 400px;
 }
 
 td{
