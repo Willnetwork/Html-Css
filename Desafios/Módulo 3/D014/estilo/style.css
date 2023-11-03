@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    border: 1px solid black;
+    height: 400px;
+    border-collapse: collapse;
+    text-align: center;
+}
+td, th{
+    border: 1px solid black;
+    width: 200px;
+}
+
+th.area{
+    background-color: white;
+    color: black;
+}
+
+td{
+    font-weight: bold;
+}
+td.media{
+    background-color: gray;
+    color: white;
+}
+
+th{
+    background-color: gray;
+    color: white;
+    font-weight: bolder;
+}
+
+th.head{
+    padding: 20px;
+}
