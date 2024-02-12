@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body{
+    font-family: "DM Sans", sans-serif;
+    background-color: black;
+    text-align: center;
+}
+
+h1{
+    color: white;
+}

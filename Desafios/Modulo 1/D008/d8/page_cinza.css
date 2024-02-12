@@ -1,0 +1,13 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(205, 203, 203);
+    font-family: "DM Sans", sans-serif;
+}
+
+.verde:hover{
+    color: rgb(1, 79, 1);
+}
+
+.amarelo:hover{
+    color: rgb(152, 152, 6);
+}
