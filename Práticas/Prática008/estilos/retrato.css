@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(../imagens/pexels-flo-dahm-1643773.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+
+}

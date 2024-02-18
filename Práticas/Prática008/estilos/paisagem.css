@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(../imagens/pexels-margerretta-904423.jpg);
+    background-repeat: no-repeat;
+    background-position: center center ;
+    background-size: cover;
+}
