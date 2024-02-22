@@ -1,7 +1,135 @@
 @charset "UTF-8";
 
 /* todas as demais mídias*/
+/*typical device breakpoints
+Pequenas telas: Abaixo ou igual a 600px
+Celular: Superior ou igual a 600px
+Tablet: Superior ou igual a 768px
+Desktop: Superior ou igual a 992px
+Grandes telas: Superior ou igual a 1200px
+*/
 
-@media print{
+@media print{ /* IMPRESSÃO */
+
+    body{
+        background-image: url(../imagens/icon-print.png); /*Desnecessario para impressão*/
+        font-family: 'Courier New', Courier, monospace;
+    }
+    main{
+        border: 2px solid black;
+    }
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+        main::after{
+            content:"Essa impressão foi feita através do site cursoemvideo.com";
+        }
+
+    img#phone {
+        display: none;
+    }
     
+    img#tablet{
+        display: none;
+    }
+    
+    img#print{
+        display: block;
+    }
+    
+    img#pc{
+        display: none;
+    }
+    
+    img#tv{
+        display: none;
+    }
+}
+
+/*OBS: Por termos utilizado metodo mobile first, não é necessario ajustar a media screen com os tamanho de tela de um dispositivo móvel pois ja tem o site feito para móvel no outro arquivo css. */
+
+@media screen and (min-width: 768px) and (max-width: 992px) { 
+/* TABLET*/
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    img#phone {
+        display: none;
+    }
+    
+    img#tablet{
+        display: block;
+    }
+    
+    img#print{
+        display: none;
+    }
+    
+    img#pc{
+        display: none;
+    }
+    
+    img#tv{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) { /* DESKTOP */
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    img#phone {
+        display: none;
+    }
+    
+    img#tablet{
+        display: none;
+    }
+    
+    img#print{
+        display: none;
+    }
+    
+    img#pc{
+        display: block;
+    }
+    
+    img#tv{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1200px){ /*GRANDES TELAS*/
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    main{
+        width: 700px;
+    }
+    img#phone {
+        display: none;
+    }
+    
+    img#tablet{
+        display: none;
+    }
+    
+    img#print{
+        display: none;
+    }
+    
+    img#pc{
+        display: none;
+    }
+    
+    img#tv{
+        display: block;
+    }
+
+
 }
