@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* todas as demais mídias*/
+/*typical device breakpoints
+Pequenas telas: Abaixo ou igual a 600px
+Celular: Superior ou igual a 600px
+Tablet: Superior ou igual a 768px
+Desktop: Superior ou igual a 992px
+Grandes telas: Superior ou igual a 1200px
+*/
+
+@media screen and (min-width: 768px) {
+    span#burger{
+        display: none;
+    }
+
+    menu{
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main{
+        width: 768px;
+    }
+
+}
