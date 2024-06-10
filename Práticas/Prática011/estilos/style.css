@@ -1,0 +1,25 @@
+@charset "UTF-8";
+h1 {
+    text-align: center;
+}
+
+p{
+    text-indent: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+div {
+    width: 400px;
+    height: 220px;
+    top: 30px;
+    left: 20px;
+    border: 6px double black;
+    position: absolute;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px #777;
+    background: linear-gradient(rgb(136, 136, 15), #FFF 80%);
+    transform: rotate(-5deg);
+}
